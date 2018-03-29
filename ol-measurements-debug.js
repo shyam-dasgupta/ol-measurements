@@ -126,7 +126,7 @@ olms.Measurement = function (map, options, drawOptions, isArea) {
             })
         });
     drawOptions.style = options.style;
-    options.units = options.units || ol.proj.Units.METERS;
+    options.units = options.units || "m";
 
     /**
      * Gets the message showed on the pointer before measuring begins.
